@@ -5,8 +5,8 @@ public class ConversorResposta {
 	private String unidade;
 	
 	
-	public ConversorResposta(double resposta, String unidade) {
-		this.temperatura = temperatura;
+	public ConversorResposta(String unidade, double resposta) {
+		this.temperatura = resposta;
 		this.unidade = unidade;
 	}
 
