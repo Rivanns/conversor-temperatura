@@ -2,11 +2,11 @@ package com.requenha.conversor_temperatura.dto;
 
 public class ConversorRequisicao {
 	private double temperatura;
-	private String de;
-	private String para;
+	private int de;
+	private int para;
 	
 	
-	public ConversorRequisicao(double temperatura, String de, String para) {
+	public ConversorRequisicao(double temperatura, int de, int para) {
         this.temperatura = temperatura;
         this.de = de;
         this.para = para;
@@ -23,22 +23,22 @@ public class ConversorRequisicao {
 	}
 
 
-	public String getDe() {
+	public int getDe() {
 		return de;
 	}
 
 
-	public void setDe(String de) {
+	public void setDe(int de) {
 		this.de = de;
 	}
 
 
-	public String getPara() {
+	public int getPara() {
 		return para;
 	}
 
 
-	public void setPara(String para) {
+	public void setPara(int para) {
 		this.para = para;
 	}
 	
